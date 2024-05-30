@@ -30,11 +30,12 @@ def download_youtube_video(url, output_path="."):
 
 if __name__ == "__main__":
     # Example URL (you can replace this with any YouTube video URL)
-    url = input("Enter the YouTube video URL: ")
+    # url = input("Enter the YouTube video URL: ")
+    url = "https://youtu.be/r0XJrdSXJuU?si=3jVrREz8pcgWht5Q"
     # output_path = input("Enter the directory to save the video (default is current directory): ")
-    output_path = r'D:\All_Adeels\University\EAD'  # Using raw string
+    # output_path = r'D:\All_Adeels\University\EAD'  # Using raw string
     # If no output path is provided, use the current directory
-    if not output_path:
-        output_path = "."
-    
+    # if not output_path:
+        # output_path = "."
+    output_path = "."
     download_youtube_video(url, output_path)
